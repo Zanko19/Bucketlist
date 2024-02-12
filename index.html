@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bucket List Idea Generator</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="script.js"></script>
-</head>
-<body class=""><h1 class="text-3xl justify-center items-center top-0 absolute mt-8">Bucket List Generator</h1>
-    <div class="text-center px-8 py-8">
-    
-    <button class="p-6 m-6 border border-black hover hover:scale-110" id="getIdeaButton">Give me an idea</button>
+  </head>
+  <body class="">
+    <div class="top-0 absolute mt-8 text-center">
+      <h1 id="title" class="text-3xl text-center justify-center">
+        Bucket List Generator
+      </h1>
+      <div class="m-4 p-4">
+        <button
+          class="p-4 m-4  justify-center text-center"
+          id="getIdeaButton"
+        >
+          Give me an idea
+        </button>
+      </div>
+    </div>
     <div class="text-center">
-        <div class="" id="ideaContainer"></div>
+      <div class="text-center">
+        <div class="m-4 p-4 rounded-3xl text-black" id="glow-on-hover"></div>
+      </div>
     </div>
-    </div>
-</body>
+  </body>
 </html>

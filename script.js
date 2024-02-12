@@ -25,5 +25,5 @@ function getBucketListIdea() {
 }
 
 function displayIdea(idea) {
-    $('#ideaContainer').html('<p>' + idea.item + '</p>');
+    $('#glow-on-hover').html('<p>' + idea.item + '</p>');
 }
