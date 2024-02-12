@@ -7,6 +7,9 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-image: url(./img/_9af7e2ad-07b5-42a3-8488-35a552ce6087.jpeg);
+    background-size: cover; /* Pour que l'image couvre toute la zone visible */
+    background-position: center;
 }
 
 h1 {
